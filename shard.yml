@@ -5,12 +5,6 @@ authors:
   - Jerome Gravel-Niquet <jeromegn@gmail.com>
   - Jamie Gaskins <jgaskins@hey.com>
 
-scripts:
-  postinstall: shards build
-
-executables:
-  - protoc-gen-crystal
-
 targets:
   protoc-gen-crystal:
     main: bin/protoc-gen-crystal.cr
